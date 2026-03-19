@@ -2,7 +2,7 @@ from __future__ import annotations
 
 
 def main() -> None:
-    n = input()
+    _ = input()
     numbers = list(map(int, input().split()))
 
     sortedNumbers = sorted(numbers, reverse=True)
